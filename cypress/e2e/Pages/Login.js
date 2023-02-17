@@ -1,11 +1,11 @@
 class LoginPage{
 
     enterUserID(){
-        cy.contains('Nama User').type('0206402')
+        cy.contains('Nama User').type('9999999')
     }
 
     enterPassword(){
-        cy.contains('Kata Sandi').type('permana2')
+        cy.contains('Kata Sandi').type('P@ssw0rd')
     }
 
     clickLogin(){
